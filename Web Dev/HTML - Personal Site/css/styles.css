@@ -1,0 +1,28 @@
+/*<!--colorhunt.co for colors-->*/
+
+body {
+  background-color: #dae1e7;
+}
+
+hr {
+  border-color: #9490b3;
+  border-style:   none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+}
+.top_hr {
+  border-top-style: double;
+}
+img {
+  border-style: double;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 1px 1px #c1c1c1;
+  color:#142850;
+}
+h3{
+  color:#27496d;
+}
