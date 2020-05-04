@@ -3,76 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <title>PJ Personal Site </title>
+  <title>SITE v3.0</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1><em>Parth's Website</em></h1>
-  <hr size="4" noshade>
-  <table cellspacing="20">
-    <tr>
-      <td>  <img src="images\220px-Bob_at_Easel.jpg" alt="HOUOIN KYOUMAAAA">
-      </td>
-      <td><p><strong>BTech, Information Technology, 2023</strong><br>
-        <i>VIT University, Vellore</i></p>
-        <br/>
-        <font size="-1"><i>(Bob Ross because he is a good man)</i></font>
-      </td>
-    </tr>
-  </table>
-  <!-- em gives emphasis hence italicizes, but i tag only gives style  -->
-  <!-- similarly, b tag only bolds, but strong tag bolds because it exerts importance -->
+  <div class="topcont">
+    <img src="images/cloud.png" class="up-cloud" alt="cloud-img">
+    <h1 class="name">I'm Parth</h1>
+    <h3 class="about_site">This is my Website</h3>
+    <img src="images/cloud.png" class="down-cloud" alt="cloud-img">
+    <img src="images/mountain.png" class="mountain" alt="mountain-img">
+  </div>
 
-  <hr size="4" noshade>
-  <p>I am The Mad Scientist. Thats so cooooool!!</p>
-  <hr noshade />
-  <h3>About Me</h3>
-  <p>
-    I am a good boy. Who else is a good boy? I am...<br />
-    <strong>Education</strong>
-    <ul>
-      <li>BTech Information Technology, 2023, <a href="http://www.vit.ac.in">VIT Vellore</a></li>
-      <li><em>Class 12</em> : Kendriya Vidyalaya Santragachi, 2018</li>
-      <li><em>Class 10</em> : Kendriya Vidyalaya Santragachi, 2016</li>
-    </ul>
-    <h3>Skills</h3>
+  <div class="midcont">
+    <div class="profile">
+      <img class="person" src=" images/people.png" alt="people">
+      <h2>Hello.</h2>
+      <p class="intro">I am currently a first  year undergraduate student at VIT, Vellore, pursuing my Btech degree in IT.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+
+      <div style="text-align: left"class="skill-row">
+        <img class="c" style="  border-radius: 50px;" src="images/c++.png" alt="computer-img">
+        <h3>C++ </h3>
+        <p>I don't really know much till now, and knowing some basic C++ and Python are the only things i could brag about right now. I hope to learn new things as I move forward.</p>
+      </div>
+
+      <div style="text-align: right"class="skill-row">
+        <img class="html_png" src="images/html.png" alt="chilli">
+        <h3>HTML/CSS</h3>
+        <p>I started to learn Web-Dev recently and have learnt some basic HTML and CSS till now.</p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If u like my Work.</h3>
+      <p>Like my work? Drop an email if u wanna praise me or employ me!<br />See you later✌ </p>
+      <a class="myButton" href="mailto:parthjaiswal01@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
-    <table cellspacing="10"> <!--HTML Styling attribues are depreciated, we now use CSS-->
-     <thead>  <!--table head-->
-     </thead>
-     <tbody>                 <!--table body-->
-       <tr>                  <!--table row-->
-
-                 <td>C++</td>
-                 <td>⭐⭐⭐</td>
-               </tr>
-               <tr>
-                 <td>HTML 5</td>
-                 <td>⭐⭐</td>
-               </tr>
-
-               <tr>
-                 <td>Python</td>
-                 <td>⭐⭐</td>
-               </tr>
-               <tr>
-                 <td>Linux</td>
-                 <td>⭐⭐</td>
-               </tr>
-     </tbody>
-     <tfoot>                 <!--table foot-->
-
-     </tfoot>
-   </table>
-   <br />
-
-    <a href="hobbies.html">Hobbies Click Here...</a><br>
-    <a href="contact.html">To Check Me out Click Here...</a>
-
-    <hr noshade />
-  </p>
+  <div class="bottomcont">
+    <a class="footer-link" href="https://www.linkedin.com/in/parth-jaiswal-46804b194/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/parth-jaiswal">Github</a>
+    <p style="color:#EAF6F6; padding-top:20px;">Made By Parth Jaiswal.</p>
+  </div>
 
 </body>
 
 </html>
+<!-- p tag is block element -->
+<!-- span,a, tag is inline element -->
