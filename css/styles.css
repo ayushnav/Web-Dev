@@ -1,0 +1,163 @@
+.topcont {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.midcont {
+  margin: 100px auto 100px auto;
+  margin-bottom: 20px;
+}
+
+.bottomcont {
+  margin-top: 50px;
+  background-color: #3ccdd7;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.c{
+  width: 25%;
+  float:left;
+  margin-right:30px;
+}
+
+.mountain{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.html_png {
+  width: 25%;
+  float:right;
+  margin-left:30px;
+}
+
+.contact-me{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.person{
+  height:300px;
+  width: auto;
+  border-radius: 50px;
+  background-color: #d9f8fc;
+}
+
+.up-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+
+.down-cloud{
+  position: absolute;
+  left: 350px;
+  bottom: 250px;
+}
+
+.name {
+  margin-top: 50px;
+  font-size:5rem;
+}
+
+.about_site{
+  font-size: 2.5em;
+  font-weight: normal;
+  padding: 0;
+  margin : 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 70px auto;
+  line-height: 2;
+
+  /*display: inline-block;*/
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+hr {
+    border-color: #9490b3;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 70px auto 70px auto;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  width:25%;
+  margin:0 auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+  font-size: 2em;
+
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  color: #11999E;
+  font-size: 1.5em;
+}
+
+a{
+  color: #11999E;
+  padding: 50px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  background-color: #dffffc;
+  color: #323134;
+}
